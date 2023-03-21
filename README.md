@@ -4,7 +4,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/AmitRanjan235/Yolov5_apparel_detection_webApp/blob/main/predicted%20image/predicted%20sample%20image.png" alt="project-screenshot" width="624" height="624/">
+<img src="https://github.com/AmitRanjan235/Yolov5_apparel_detection_webApp/blob/main/predicted%20image/predicted%20sample%20image.png" alt="project-screenshot" width="1024" height="624/">
 
 <h2>🛠️ Installation Steps:</h2>
 
