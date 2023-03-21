@@ -52,4 +52,3 @@ yolov5webapp\Yolov5_apparel_detection_webApp\com_ineuron_apparel\predictor_yolo_
 yolov5webapp\Yolov5_apparel_detection_webApp\templates\index.html: This file contains the HTML code for the web application interface.
 
 This web application is based on the YOLOv5 object detection model developed by Amit Ranjan. The YOLOv5 model is released under the MIT license, and more information can be found in the official YOLOv5 repository.
-
