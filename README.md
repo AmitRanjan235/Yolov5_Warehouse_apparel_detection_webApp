@@ -1,7 +1,7 @@
-Apparel Detection Web App using YOLOv5
-This web application uses the YOLOv5 deep learning model to detect apparel from an image uploaded by the user. The detected objects are then highlighted with bounding boxes and labeled with the predicted class.
+#Apparel Detection Web App using YOLOv5
+**This web application uses the YOLOv5 deep learning model to detect apparel from an image uploaded by the user. The detected objects are then highlighted with bounding boxes and labeled with the predicted class.**
 
-Requirements
+*Requirements
 To run this web application, you need the following:
 
 -f https://download.pytorch.org/whl/lts/1.8/torch_lts.html
@@ -17,7 +17,7 @@ tqdm>=4.41.0
 flask-cors
 gunicorn
 torch==1.8.2+cpu
-torchvision==0.9.2+cpu
+torchvision==0.9.2+cpu*
 
 YOLOv5 model weights (available here)
 Installation
