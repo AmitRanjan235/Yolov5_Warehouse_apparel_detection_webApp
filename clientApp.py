@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify, render_template,Response
 import os
 from flask_cors import CORS, cross_origin
-from com_ineuron_apparel.com_ineuron_utils.utils import decodeImage
-from com_ineuron_apparel.predictor_yolo_detector.detector_test import Detector
+from com_warehouse_apparel.com_warehouse_utils.utils import decodeImage
+from com_warehouse_apparel.predictor_yolo_detector.detector_test import Detector
 
 # import sys
-# sys.path.insert(0, './com_ineuron_apparel')
+# sys.path.insert(0, './com_warehouse_apparel')
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
