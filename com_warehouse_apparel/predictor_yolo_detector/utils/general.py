@@ -24,8 +24,8 @@ from scipy.cluster.vq import kmeans
 from scipy.signal import butter, filtfilt
 from tqdm import tqdm
 
-from com_ineuron_apparel.predictor_yolo_detector.utils.google_utils import gsutil_getsize
-from com_ineuron_apparel.predictor_yolo_detector.utils.torch_utils import is_parallel, init_torch_seeds
+from com_warehouse_apparel.predictor_yolo_detector.utils.google_utils import gsutil_getsize
+from com_warehouse_apparel.predictor_yolo_detector.utils.torch_utils import is_parallel, init_torch_seeds
 
 # Set printoptions
 torch.set_printoptions(linewidth=320, precision=5, profile='long')
@@ -800,7 +800,7 @@ def kmean_anchors(path='./data/coco128.yaml', n=9, img_size=640, thr=4.0, gen=10
     if isinstance(path, str):  # *.yaml file
         with open(path) as f:
             data_dict = yaml.load(f, Loader=yaml.FullLoader)  # model dict
-        from com_ineuron_apparel.predictor_yolo_detector.utils.datasets import LoadImagesAndLabels
+        from com_warehouse_apparel.predictor_yolo_detector.utils.datasets import LoadImagesAndLabels
         dataset = LoadImagesAndLabels(data_dict['train'], augment=True, rect=True)
     else:
         dataset = path  # dataset
