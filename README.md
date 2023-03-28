@@ -30,7 +30,7 @@ Install the required Python packages using pip:
 
 Copy code
 pip install -r requirements.txt
-Download the YOLOv5 model weights and place them in the yolov5webapp\Yolov5_apparel_detection_webApp\com_ineuron_apparel\predictor_yolo_detector\weights directory.
+Download the YOLOv5 model weights and place them in the yolov5webapp\Yolov5_apparel_detection_webApp\com_warehouse_apparel\predictor_yolo_detector\weights directory.
 
 Usage
 To run the web application, run the following command:
@@ -48,7 +48,7 @@ Customization
 You can customize this web application by modifying the following files:
 
 clientApp.py: This file contains the Flask application code, including the routing and view functions.
-yolov5webapp\Yolov5_apparel_detection_webApp\com_ineuron_apparel\predictor_yolo_detector\detector_test.py: This file contains the code for detecting apparel using the YOLOv5 model.
+yolov5webapp\Yolov5_apparel_detection_webApp\com_warehouse_apparel\predictor_yolo_detector\detector_test.py: This file contains the code for detecting apparel using the YOLOv5 model.
 yolov5webapp\Yolov5_apparel_detection_webApp\templates\index.html: This file contains the HTML code for the web application interface.
 
 This web application is based on the YOLOv5 object detection model developed by Amit Ranjan. The YOLOv5 model is released under the MIT license, and more information can be found in the official YOLOv5 repository.
