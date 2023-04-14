@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Apparel Detection Web App using YOLOv5</h1>
+<h1 align="center" id="title">Warehouse Apparel Detection Web App using YOLOv5</h1>
 
 <p id="description">This web application uses the YOLOv5 deep learning model to detect apparel from an image uploaded by the user. The detected objects are then highlighted with bounding boxes and labeled with the predicted class.</p>
 
